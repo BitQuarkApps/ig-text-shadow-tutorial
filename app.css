@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+}
+.text-shadow-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: #feffbe;
+  overflow-y: hidden;
+}
+
+.text-shadow {
+  font-size: 6em;
+  font-weight: 800;
+  color: #435058;
+  text-transform: uppercase;
+  position: relative;
+  outline: none;
+  text-shadow: 1px 1px 0 #ebd494;
+}
